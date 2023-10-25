@@ -2419,22 +2419,16 @@ body {
     margin-bottom: 20px;
   }
 }
+.del-online-sec__text .links-online-store a {
+  width: 216px;
+}
+@media screen and (max-width: 768px) {
+  .del-online-sec__text .links-online-store a {
+    width: 162px;
+  }
+}
 .del-online-sec__text .links-online-store a:first-of-type {
-  width: 200px;
   margin-right: 20px;
-}
-@media screen and (max-width: 768px) {
-  .del-online-sec__text .links-online-store a:first-of-type {
-    width: 168px;
-  }
-}
-.del-online-sec__text .links-online-store a:nth-child(2) {
-  width: 180px;
-}
-@media screen and (max-width: 768px) {
-  .del-online-sec__text .links-online-store a:nth-child(2) {
-    width: 150px;
-  }
 }
 .del-online-sec__text .links-online-store a img {
   width: 100%;

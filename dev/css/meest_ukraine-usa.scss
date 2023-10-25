@@ -192,18 +192,12 @@ body{
                 margin-bottom: 20px;
             }
             a{
-                &:first-of-type{
-                    width: 200px;
-                    margin-right: 20px;
-                    @include maxWidth768(){
-                        width: 168px;
-                    }
+                width: 216px;
+                @include maxWidth768(){
+                    width: 162px;
                 }
-                &:nth-child(2){
-                    width: 180px;
-                    @include maxWidth768(){
-                        width: 150px;
-                    }
+                &:first-of-type{
+                    margin-right: 20px;
                 }
                 img{
                     width: 100%;
