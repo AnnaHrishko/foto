@@ -4071,31 +4071,41 @@ body {
   font-weight: 700;
 }
 
-body .select2-container--default .select2-selection--single {
-  background-color: #fff;
-  border: 1px solid #D7D8D9;
+.sec-shipping-calculator.meest-ukraine-usa .select2-container--default .select2-selection--single {
+  background-color: #EEF0F0;
+  border: unset;
   border-radius: 24px;
   height: 48px;
 }
+@media screen and (max-width: 768px) {
+  .sec-shipping-calculator.meest-ukraine-usa .select2-container--default .select2-selection--single {
+    background-color: #fff;
+  }
+}
 
-body .history_wrap_inner .select2-container--default .select2-selection--single {
+.sec-shipping-calculator.meest-ukraine-usa .select2-container--default .select2-selection--single {
   height: 43px;
 }
 
-body .history_wrap_inner .select2-container--default .select2-selection--single .select2-selection__arrow {
+.sec-shipping-calculator.meest-ukraine-usa .select2-container--default .select2-selection--single .select2-selection__arrow {
   top: 16px;
 }
 
-body .promos-wrapper .select2-container--default .select2-selection--single .select2-selection__rendered {
+.sec-shipping-calculator.meest-ukraine-usa .select2-container--default .select2-selection--single .select2-selection__rendered {
   padding: 10px 16px;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 109%;
-  letter-spacing: 0.02em;
-  color: #2361A9;
+  color: #1B2B3C;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 109%; /* 17.44px */
+  letter-spacing: 0.32px;
   display: flex;
   align-items: center;
   height: 100%;
+}
+
+.sec-shipping-calculator.meest-ukraine-usa .flag-text {
+  margin-left: 12px;
 }
 
 body .select2-container--default .select2-selection--single .select2-selection__rendered::placeholder {
@@ -4109,22 +4119,35 @@ body .select2-container--default .select2-selection--single .select2-selection__
   color: rgba(27, 43, 60, 0.6);
 }
 
-body .select2-container--default .select2-selection--single .select2-selection__arrow {
-  top: 20px;
-  right: 16px;
+.sec-shipping-calculator.meest-ukraine-usa .select2-container--default .select2-selection--single .select2-selection__arrow {
+  top: 17px;
+  right: 20px;
   width: 16px;
   height: 16px;
 }
+@media screen and (max-width: 768px) {
+  .sec-shipping-calculator.meest-ukraine-usa .select2-container--default .select2-selection--single .select2-selection__arrow {
+    width: 14px;
+    height: 8px;
+  }
+}
 
-body .select2-container--default .select2-selection--single .select2-selection__arrow b {
+.sec-shipping-calculator.meest-ukraine-usa .select2-container--default .select2-selection--single .select2-selection__arrow b {
   background-image: url(../img/arrow_select.svg);
   background-repeat: no-repeat;
   background-position: 96% center;
   border-color: unset;
   border-style: unset;
-  height: 7px;
-  width: 12px;
+  height: 10px;
+  width: 17px;
   transform: translateY(-50%);
+}
+@media screen and (max-width: 768px) {
+  .sec-shipping-calculator.meest-ukraine-usa .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    width: 14px;
+    height: 8px;
+    background-position: center center;
+  }
 }
 
 body .select2-dropdown {
@@ -4164,6 +4187,12 @@ body .select2-results__option {
   align-items: center;
   letter-spacing: 0.02em;
   color: #303A45;
+}
+
+@media screen and (max-width: 768px) {
+  .sec-shipping-calculator.meest-ukraine-usa .select2-container {
+    width: 100% !important;
+  }
 }
 
 .our-news-sec-ukr-usa {
