@@ -13,15 +13,15 @@
     <link rel="stylesheet" href="css/meest_ukraine-usa.css">
 </head>
 <body>
-    <section class="main-sec-ukr-usa">
+    <section class="main-sec main-sec__ukr-usa">
         <div class="container-inner">
-            <div class="main-sec-ukr-usa__inner">
-                <div class="main-sec-ukr-usa__inner__text">
+            <div class="d-flex">
+                <div class="main-sec__text">
                     <h1 class="main-heading">Україна - Сша від 300 грн</h1>
                     <p class="subheading">Скористайся доставкою за зниженими тарифами з України у Сша від Meesr Пошта просто зараз!</p>
                     <a href="#" class="btn btn-blue-dark">СТВОРИТИ ПОСИЛКУ</a>
                 </div>
-                <picture class="main-sec-ukr-usa__inner__img">
+                <picture class="main-sec__img">
                     <source srcset="img/img_map_usa.png" media="(max-width: 768px)">
                     <img class="full-width" src="img/img_map_usa.png" alt="map-usa-picture" loading="lazy">        
                 </picture> 
@@ -30,20 +30,20 @@
     </section>
     <section class="del-online-sec">
         <div class="container-inner">
-            <div class="del-online-sec__inner">
-                <div class="del-online-sec__inner__text">
+            <div class="d-flex">
+                <div class="del-online-sec__text">
                     <h2 class="heading">Відправляй посилки <br> онлайн через додаток</h2>
                     <div class="links-online-store">
-                        <a href="#" class="links-online-store__link-store">
+                        <a href="#">
                             <img src="img/google_play.svg" alt="google-play-img">
                         </a>
-                        <a href="#" class="links-online-store__link-store">
+                        <a href="#">
                             <img src="img/App_Store.svg" alt="app-store-img">
                         </a>
                     </div>
                     <p class="subheading">Завантажуй мобільний додаток та <br> відправляй посилку онлайн </p>
                 </div>
-                <picture class="del-online-sec__inner__img">
+                <picture class="del-online-sec__img">
                     <source srcset="img/img_del_online.png" media="(max-width: 768px)">
                     <img class="full-width" src="img/img_del_online.png" alt="" loading="lazy">        
                 </picture> 
@@ -52,105 +52,99 @@
     </section>
     <section class="sec-shipping-calculator meest-ukraine-usa">
         <div class="container-inner">
-            <div class="sec-shipping-calculator__inner">
-                <div class="center-div">
-                    <h2 class="heading">Калькулятор доставки</h2>
-                    <p class="descr descr--grey">Тарифи на послуги міжнародної доставки</p>
-                </div>
-                <form action="#" class="calculation-form">
-                    <div class="flex-inputs">
-                        <div class="form-row flex_direct">
-                            <label for="" class="label">Sender's country</label>
-                            <input type="text" placeholder="Ukraine" disabled class="input">
-                        </div>
-                        <div class="form-row flex_direct">
-                            <label for="" class="label">Recipient's country</label>
-                            <select name="country" id="" class="country-select select_h60">
-                                <option value=""></option>
-                            </select>
-                        </div>
-                    </div>
-                    <button class="btn btn-blue-dark btn-arrow">CALCULATE</button>
-                </form>
-                <picture class="img-calc-mobile">
-                    <source srcset="img/img-mobile-calc.png" media="(max-width: 768px)">
-                    <img class="full-width" src="" alt="" loading="lazy">        
-                </picture> 
+            <div class="center-div">
+                <h2 class="heading">Калькулятор доставки</h2>
+                <p class="descr descr--grey">Тарифи на послуги міжнародної доставки</p>
             </div>
+            <form action="#" class="calculation-form">
+                <div class="flex-inputs">
+                    <div class="form-row flex_direct">
+                        <label for="" class="label">Sender's country</label>
+                        <input type="text" placeholder="Ukraine" disabled class="input">
+                    </div>
+                    <div class="form-row flex_direct">
+                        <label for="" class="label">Recipient's country</label>
+                        <select name="country" id="" class="country-select select_h60">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <button class="btn btn-blue-dark btn-arrow">CALCULATE</button>
+            </form>
+            <picture class="img-calc-mobile">
+                <source srcset="img/img-mobile-calc.png" media="(max-width: 768px)">
+                <img class="full-width" src="" alt="" loading="lazy">        
+            </picture>     
         </div>
     </section>
     <section class="tariff-delivery-sec">
         <div class="container-inner">
-            <div class="tariff-delivery-sec__inner">
-                <div class="tariff-delivery-sec__inner__top">
-                    <div class="center-div">
-                        <h2 class="heading">Тарифи для відправки З УКРАЇНИ В США</h2>
-                        <span class="descr descr--grey">Тариф не враховує мито</span>
-                    </div>
-                    <div class="table" data-simplebar>
-                        <table>
-                            <tr>
-                                <th>Вага</th>
-                                <th>до 1 кг</th>
-                                <th>до 2 кг</th>
-                                <th>до 10 кг</th>
-                                <th>до 30 кг</th>
-                                <th>понад 30 кг</th>
-                              </tr>
-                              <tr>
-                                <td>до 100 гр <br> включно</td>
-                                <td>315 грн</td>
-                                <td>315 грн</td>
-                                <td>315 грн</td>
-                                <td>315 грн</td>
-                                <td>300 грн</td>
-                              </tr>
-                              <tr>
-                                <td>Cпонад 100 гр – <br> 1 кг включно</td>
-                                <td>450 грн</td>
-                                <td>450 грн</td>
-                                <td>450 грн</td>
-                                <td>450 грн</td>
-                                <td>705 грн</td>
-                              </tr>
-                        </table>
-                    </div>
+            <div class="tariff-delivery-sec__top">
+                <div class="center-div">
+                    <h2 class="heading">Тарифи для відправки З УКРАЇНИ В США</h2>
+                    <span class="descr descr--grey">Тариф не враховує мито</span>
                 </div>
-                <div class="tariff-delivery-sec__inner__bottom">
-                    <div class="tariff-link">
-                        <div class="tariff-link__text">
-                            <img src="img/document_svg.svg" alt="document_icon">
-                            <span>ТАРИФИ НА ПОСЛУГИ МІЖНАРОДНОЇ ДОСТАВКИ З УКРАЇНИ В США ТА КАНАДУ</span>
-                        </div>
-                        <a href="#" class="btn btn-small btn-blue-dark">Відкрити PDF</a>
-                    </div>
-                    <div class="tariff-link">
-                        <div class="tariff-link__text">
-                            <img src="img/document_svg.svg" alt="document_icon">
-                            <span>ТАРИФИ НА ПОСЛУГИ МІЖНАРОДНОЇ ДОСТАВКИ З УКРАЇНИ В США ТА КАНАДУ</span>
-                        </div>
-                        <a href="#" class="btn btn-small btn-blue-dark">Відкрити PDF</a>
-                    </div>
+                <div class="table" data-simplebar>
+                    <table>
+                        <tr>
+                            <th>Вага</th>
+                            <th>до 1 кг</th>
+                            <th>до 2 кг</th>
+                            <th>до 10 кг</th>
+                            <th>до 30 кг</th>
+                            <th>понад 30 кг</th>
+                          </tr>
+                          <tr>
+                            <td>до 100 гр <br> включно</td>
+                            <td>315 грн</td>
+                            <td>315 грн</td>
+                            <td>315 грн</td>
+                            <td>315 грн</td>
+                            <td>300 грн</td>
+                          </tr>
+                          <tr>
+                            <td>Cпонад 100 гр – <br> 1 кг включно</td>
+                            <td>450 грн</td>
+                            <td>450 грн</td>
+                            <td>450 грн</td>
+                            <td>450 грн</td>
+                            <td>705 грн</td>
+                          </tr>
+                    </table>
                 </div>
             </div>
+            <div class="tariff-delivery-sec__bottom">
+                <div class="tariff-link">
+                    <div class="tariff-link__text">
+                        <img src="img/document_svg.svg" alt="document_icon">
+                        <span>ТАРИФИ НА ПОСЛУГИ МІЖНАРОДНОЇ ДОСТАВКИ З УКРАЇНИ В США ТА КАНАДУ</span>
+                    </div>
+                    <a href="#" class="btn btn-small btn-blue-dark">Відкрити PDF</a>
+                </div>
+                <div class="tariff-link">
+                    <div class="tariff-link__text">
+                        <img src="img/document_svg.svg" alt="document_icon">
+                        <span>ТАРИФИ НА ПОСЛУГИ МІЖНАРОДНОЇ ДОСТАВКИ З УКРАЇНИ В США ТА КАНАДУ</span>
+                    </div>
+                    <a href="#" class="btn btn-small btn-blue-dark">Відкрити PDF</a>
+                </div>
+            </div>    
         </div>
     </section>
-    <div class="sec-instruction bcg-grey">
+    <div class="sec-instruction">
         <div class="container-inner">
-            <div class="sec-instruction__inner">
-                <h2 class="heading">Як оформити відправлення посилки</h2>
-                <div class="sec-instruction__inner__instruction-navigation">
-                    <ul>
-                        <li instruction-tag="1" class="active">СТВОРИТИ ОНЛАЙН</li>
-                        <li instruction-tag="2">З МОБІЛЬНОГО ДОДАТКУ MEEST ПОШТА</li>
-                        <li instruction-tag="3">З ВІДДІЛЕННЯ MEEST</li>
-                        <li instruction-tag="4">ВИКЛИК КУР’ЄРА</li>
-                    </ul>
-                </div>
-            </div>
+            <h2 class="heading">Як оформити відправлення посилки</h2>
+            <div class="sec-instruction__instruction-navigation">
+                <ul>
+                    <li instruction-tag="1" class="active">СТВОРИТИ ОНЛАЙН</li>
+                    <li instruction-tag="2">З МОБІЛЬНОГО ДОДАТКУ MEEST ПОШТА</li>
+                    <li instruction-tag="3">З ВІДДІЛЕННЯ MEEST</li>
+                    <li instruction-tag="4">ВИКЛИК КУР’ЄРА</li>
+                </ul>
+            </div>        
             <div class="instruction-part wrap1">
-                <div class="instruction-part__instruction-wrapper">
-                    <div class="instruction-part__instruction-wrapper__card">
+                <div class="instruction-wrapper">
+                    <div class="instruction-wrapper__card">
                         <div class="top">
                             <img src="img/arrange_parcel1.svg" alt="">
                             <span class="number">1.</span>
@@ -158,21 +152,21 @@
                         <h3>Створи посилку на сайті</h3>
                         <p>Усі необхідні дані відправника заповни кирилицею, а дані отримувача заповни латиницею. Обери країну доставки та вид сервісу, а також заповни параметри посилки (формат, вагу, довжину, ширину та висоту). Після цього заповни усі дані про вміст посилки (найменування, кількість, цінність вмісту посилки).</p>
                     </div>
-                    <div class="instruction-part__instruction-wrapper__card">
+                    <div class="instruction-wrapper__card">
                         <div class="top">
                             <img src="img/arrange_parcel2.svg" alt="">
                         </div>
                         <h3>Принеси посилку</h3>
                         <p>Принеси створену онлайн посилку у найближче відділення Meest (карта відділень Meest), для її відправки за обраним напрямком.</p>
                     </div>
-                    <div class="instruction-part__instruction-wrapper__card">
+                    <div class="instruction-wrapper__card">
                         <div class="top">
                             <img src="img/arrange_parcel3.svg" alt="">
                         </div>
                         <h3>Оплати доставку</h3>
                         <p>Оплати вартість доставки в мобільному додатку, онлайн на сайті або ж у відділенні за посиланням, яке надішле тобі оператор.</p>
                     </div>
-                    <div class="instruction-part__instruction-wrapper__card card-blue">
+                    <div class="instruction-wrapper__card card-blue">
                         <div class="top">
                             <img src="img/arrow_instruction.svg" alt="">
                         </div>
@@ -182,8 +176,8 @@
                 </div>
             </div>
             <div class="instruction-part wrap2">
-                <div class="instruction-part__instruction-wrapper">
-                    <div class="instruction-part__instruction-wrapper__card">
+                <div class="instruction-wrapper">
+                    <div class="instruction-wrapper__card">
                         <div class="top">
                             <img src="img/arrange_parcel1.svg" alt="">
                             <span class="number">1.</span>
@@ -191,7 +185,7 @@
                         <h3>Створи посилку на сайті</h3>
                         <p>Усі необхідні дані відправника заповни кирилицею, а дані отримувача заповни латиницею. Обери країну доставки та вид сервісу, а також заповни параметри посилки (формат, вагу, довжину, ширину та висоту). Після цього заповни усі дані про вміст посилки (найменування, кількість, цінність вмісту посилки).</p>
                     </div>
-                    <div class="instruction-part__instruction-wrapper__card">
+                    <div class="instruction-wrapper__card">
                         <div class="top">
                             <img src="img/arrange_parcel1.svg" alt="">
                             <span class="number">2.</span>
@@ -199,7 +193,7 @@
                         <h3>Додай інформацію про посилку</h3>
                         <p>Обери країну доставки, вид сервісу, а також заповни параметри та дані про вміст посилки.</p>
                     </div>
-                    <div class="instruction-part__instruction-wrapper__card">
+                    <div class="instruction-wrapper__card">
                         <div class="top">
                             <img src="img/arrange_parcel1.svg" alt="">
                             <span class="number">3.</span>
@@ -207,7 +201,7 @@
                         <h3>Заповни дані про відправника та отримувача</h3>
                         <p>Усі необхідні дані відправника заповни кирилицею, а дані отримувача – латиницею.</p>
                     </div>
-                    <div class="instruction-part__instruction-wrapper__card">
+                    <div class="instruction-wrapper__card">
                         <div class="top">
                             <img src="img/arrange_parcel1.svg" alt="">
                             <span class="number">4.</span>
@@ -215,7 +209,7 @@
                         <h3>Оплати доставку</h3>
                         <p>Оплати вартість міжнародної посилки в додатку, онлайн на сайті або ж у відділенні за посиланням, яке надішле тобі оператор.</p>
                     </div>
-                    <div class="instruction-part__instruction-wrapper__card">
+                    <div class="instruction-wrapper__card">
                         <div class="top">
                             <img src="img/arrange_parcel1.svg" alt="">
                             <span class="number">5.</span>
@@ -223,7 +217,7 @@
                         <h3>Принеси посилку у відділення</h3>
                         <p>Принеси створену посилку у відділення Meest ПОШТА для її відправки за обраним напрямком.</p>
                     </div>
-                    <div class="instruction-part__instruction-wrapper__card">
+                    <div class="instruction-wrapper__card">
                         <div class="top">
                             <img src="img/arrange_parcel1.svg" alt="">
                             <span class="number">6.</span>
@@ -234,8 +228,8 @@
                 </div>
             </div>
             <div class="instruction-part wrap3">
-                <div class="instruction-part__instruction-wrapper">
-                    <div class="instruction-part__instruction-wrapper__card">
+                <div class="instruction-wrapper">
+                    <div class="instruction-wrapper__card">
                         <div class="top">
                             <img src="img/arrange_parcel1.svg" alt="">
                             <span class="number">1.</span>
@@ -243,7 +237,7 @@
                         <h3>Принесіть посилку</h3>
                         <p>Принесіть відправлення у відділення Meest.</p>
                     </div>
-                    <div class="instruction-part__instruction-wrapper__card">
+                    <div class="instruction-wrapper__card">
                         <div class="top">
                             <img src="img/arrange_parcel1.svg" alt="">
                             <span class="number">2.</span>
@@ -251,7 +245,7 @@
                         <h3>Оформіть</h3>
                         <p>Заповніть супровідні документи з працівником відділення Meest.</p>
                     </div>
-                    <div class="instruction-part__instruction-wrapper__card">
+                    <div class="instruction-wrapper__card">
                         <div class="top">
                             <img src="img/arrange_parcel1.svg" alt="">
                             <span class="number">3.</span>
@@ -262,8 +256,8 @@
                 </div>
             </div>
             <div class="instruction-part wrap4">
-                <div class="instruction-part__instruction-wrapper swiper-wrapper">
-                    <div class="instruction-part__instruction-wrapper__card">
+                <div class="instruction-wrapper swiper-wrapper">
+                    <div class="instruction-wrapper__card">
                         <div class="top">
                             <img src="img/arrange_parcel1.svg" alt="">
                             <span class="number">1.</span>
@@ -271,7 +265,7 @@
                         <h3>Замовити послугу "Виклик кур'єра"</h3>
                         <p>Заповніть для замовлення послуги "Виклик кур'єра по Україні". Послуга забору і відправки посилки на склад Meest – безкоштовна для клієнтів.</p>
                     </div>
-                    <div class="instruction-part__instruction-wrapper__card">
+                    <div class="instruction-wrapper__card">
                         <div class="top">
                             <img src="img/arrange_parcel1.svg" alt="">
                             <span class="number">2.</span>
@@ -279,7 +273,7 @@
                         <h3>Провести опис відправлення</h3>
                         <p>Заповніть  з інформацією про опис відправлення або ж напишіть від руки на аркуші паперу, чи роздрукуйте форму і заповніть її згідно зразка нижче та вкладіть її в посилку. Вміст посилки повинен бути запакованим у коробку та щільно закритим.</p>
                     </div>
-                    <div class="instruction-part__instruction-wrapper__card">
+                    <div class="instruction-wrapper__card">
                         <div class="top">
                             <img src="img/arrange_parcel1.svg" alt="">
                             <span class="number">3.</span>
@@ -287,7 +281,7 @@
                         <h3>Підтвердження замовлення</h3>
                         <p>Протягом декількох хвилин після отримання заявки, працівник Meest зв'яжеться з вами для уточнення усіх деталей та підтвердження вашого замовлення.</p>
                     </div>
-                    <div class="instruction-part__instruction-wrapper__card">
+                    <div class="instruction-wrapper__card">
                         <div class="top">
                             <img src="img/arrange_parcel1.svg" alt="">
                             <span class="number">4.</span>
@@ -295,7 +289,7 @@
                         <h3>Забір відправлення</h3>
                         <p>Заявки на виклик кур'єра приймаються з понеділка по п'ятницю до 18:00.</p>
                     </div>
-                    <div class="instruction-part__instruction-wrapper__card">
+                    <div class="instruction-wrapper__card">
                         <div class="top">
                             <img src="img/arrange_parcel1.svg" alt="">
                             <span class="number">5.</span>
@@ -303,7 +297,7 @@
                         <h3>Оплата послуги "Виклик кур'єра"</h3>
                         <p>Послуга "Виклик кур'єра по Україні" є безкоштовною для клієнтів. Після забору посилки кур'єром, вона буде доставлена до міжнародного сортувального центру Meest.</p>
                     </div>
-                    <div class="instruction-part__instruction-wrapper__card">
+                    <div class="instruction-wrapper__card">
                         <div class="top">
                             <img src="img/arrange_parcel1.svg" alt="">
                             <span class="number">6.</span>
@@ -317,208 +311,200 @@
     </div>
     <section class="advntgs-sec">
         <div class="container-inner">
-            <div class="advntgs-sec__inner">
-                <h2 class="heading">перевагами</h2>
-                <div class="advntgs-sec__inner__advntgs-wrapper">
-                    <div class="advntgs-sec__inner__advntgs-wrapper__row">
-                        <div class="icon">
-                            <img src="img/calendar-check-02.svg" alt="">
-                        </div>
-                        <span>Терміни доставки від 3 робочих днів</span>
+            <h2 class="heading">перевагами</h2>
+            <div class="advntgs-wrapper">
+                <div class="advntgs-wrapper__row">
+                    <div class="icon">
+                        <img src="img/calendar-check-02.svg" alt="">
                     </div>
-                    <div class="advntgs-sec__inner__advntgs-wrapper__row">
-                        <div class="icon">
-                            <img src="img/shield-plus.svg" alt="">
-                        </div>
-                        <span>Гарантія доставки</span>
-                    </div>
-                    <div class="advntgs-sec__inner__advntgs-wrapper__row">
-                        <div class="icon">
-                            <img src="img/del_icon3.svg" alt="">
-                        </div>
-                        <span>Кур'єрська доставка </span>
-                    </div>
-                    <div class="advntgs-sec__inner__advntgs-wrapper__row">
-                        <div class="icon">
-                            <img src="img/headphones_icon.svg" alt="">
-                        </div>
-                        <span>Служба підтримки </span>
-                    </div>
-                    <div class="advntgs-sec__inner__advntgs-wrapper__row">
-                        <div class="icon">
-                            <img src="img/route.svg" alt="">
-                        </div>
-                        <span>Трекінг посилки </span>
-                    </div>
-                    <div class="advntgs-sec__inner__advntgs-wrapper__row">
-                        <div class="icon">
-                            <img src="img/insurance_icon.svg" alt="">
-                        </div>
-                        <span>Страхування у межах оголошеної вартості посилки</span>
-                    </div>
-                    <div class="advntgs-sec__inner__advntgs-wrapper__row">
-                        <div class="icon">
-                            <img src="img/del_near_with_us.svg" alt="">
-                        </div>
-                        <span>Відправляйте з відділення поруч з вашим домом чи офісом </span>
-                    </div>
+                    <span>Терміни доставки від 3 робочих днів</span>
                 </div>
-            </div>
+                <div class="advntgs-wrapper__row">
+                    <div class="icon">
+                        <img src="img/shield-plus.svg" alt="">
+                    </div>
+                    <span>Гарантія доставки</span>
+                </div>
+                <div class="advntgs-wrapper__row">
+                    <div class="icon">
+                        <img src="img/del_icon3.svg" alt="">
+                    </div>
+                    <span>Кур'єрська доставка </span>
+                </div>
+                <div class="advntgs-wrapper__row">
+                    <div class="icon">
+                        <img src="img/headphones_icon.svg" alt="">
+                    </div>
+                    <span>Служба підтримки </span>
+                </div>
+                <div class="advntgs-wrapper__row">
+                    <div class="icon">
+                        <img src="img/route.svg" alt="">
+                    </div>
+                    <span>Трекінг посилки </span>
+                </div>
+                <div class="advntgs-wrapper__row">
+                    <div class="icon">
+                        <img src="img/insurance_icon.svg" alt="">
+                    </div>
+                    <span>Страхування у межах оголошеної вартості посилки</span>
+                </div>
+                <div class="advntgs-wrapper__row">
+                    <div class="icon">
+                        <img src="img/del_near_with_us.svg" alt="">
+                    </div>
+                    <span>Відправляйте з відділення поруч з вашим домом чи офісом </span>
+                </div>
+            </div>        
         </div>
     </section>
     <section class="calculation-examples-sec">
         <div class="container-inner">
-            <div class="calculation-examples-sec__inner">
-                <h2 class="heading">Приклади розрахунку</h2>
-                <div class="calculation-examples-sec__inner__examples-wrapper">
-                    <div class="example-row">
-                        <a href="#" class="example-row__img">
-                            <picture>
-                                <source srcset="img/example_img1.png" media="(max-width: 768px)">
-                                <img class="full-width" src="img/example_img1.png" alt="" loading="lazy">        
-                            </picture> 
-                        </a>
-                        <div class="example-row__text">
-                            <div class="example-row__text__top">
-                                <h2 class="title">
-                                    <a href="#">Куртка, штани, футболка, сукня</a>
-                                </h2>
-                                <p class="descr descr--grey">Відправляю сестрі її куртку, футболку та водійське посвідчення. Куртка коштувала 1200 грн, а футболка 300 грн, разом це приблизно 40 євро.</p>
-                            </div>
-                            <div class="example-row__text__bottom">
-                                <span>Речі не нові, і вартість до 45 євро, тож нарахування митних платежів не буде.</span>
-                            </div>
+            <h2 class="heading">Приклади розрахунку</h2>
+            <div class="calculation-examples-sec__examples-wrapper">
+                <div class="example-row">
+                    <a href="#" class="example-row__img">
+                        <picture>
+                            <source srcset="img/example_img1.png" media="(max-width: 768px)">
+                            <img class="full-width" src="img/example_img1.png" alt="" loading="lazy">        
+                        </picture> 
+                    </a>
+                    <div class="example-row__text">
+                        <div class="top">
+                            <h2 class="title">
+                                <a href="#">Куртка, штани, футболка, сукня</a>
+                            </h2>
+                            <p class="descr descr--grey">Відправляю сестрі її куртку, футболку та водійське посвідчення. Куртка коштувала 1200 грн, а футболка 300 грн, разом це приблизно 40 євро.</p>
                         </div>
-                    </div>
-                    <div class="example-row">
-                        <a href="#" class="example-row__img">
-                            <picture>
-                                <source srcset="img/example_img2.png" media="(max-width: 768px)">
-                                <img class="full-width" src="img/example_img2.png" alt="" loading="lazy">        
-                            </picture> 
-                        </a>
-                        <div class="example-row__text">
-                            <div class="example-row__text__top">
-                                <h2 class="title">
-                                    <a href="#">Куртка, штани, футболка, сукня</a>
-                                </h2>
-                                <p class="descr descr--grey">Відправляю сестрі її куртку, футболку та водійське посвідчення. Куртка коштувала 1200 грн, а футболка 300 грн, разом це приблизно 40 євро.</p>
-                            </div>
-                            <div class="example-row__text__bottom">
-                                <span>Речі не нові, і вартість до 45 євро, тож нарахування митних платежів не буде.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="example-row">
-                        <a href="#" class="example-row__img">
-                            <picture>
-                                <source srcset="img/example_img1.png" media="(max-width: 768px)">
-                                <img class="full-width" src="img/example_img3.png" alt="" loading="lazy">        
-                            </picture> 
-                        </a>
-                        <div class="example-row__text">
-                            <div class="example-row__text__top">
-                                <h2 class="title">
-                                    <a href="#">Куртка, штани, футболка, сукня</a>
-                                </h2>
-                                <p class="descr descr--grey">Відправляю сестрі її куртку, футболку та водійське посвідчення. Куртка коштувала 1200 грн, а футболка 300 грн, разом це приблизно 40 євро.</p>
-                            </div>
-                            <div class="example-row__text__bottom">
-                                <span>Речі не нові, і вартість до 45 євро, тож нарахування митних платежів не буде.</span>
-                            </div>
+                        <div class="bottom">
+                            <span>Речі не нові, і вартість до 45 євро, тож нарахування митних платежів не буде.</span>
                         </div>
                     </div>
                 </div>
-            </div>
+                <div class="example-row">
+                    <a href="#" class="example-row__img">
+                        <picture>
+                            <source srcset="img/example_img2.png" media="(max-width: 768px)">
+                            <img class="full-width" src="img/example_img2.png" alt="" loading="lazy">        
+                        </picture> 
+                    </a>
+                    <div class="example-row__text">
+                        <div class="top">
+                            <h2 class="title">
+                                <a href="#">Куртка, штани, футболка, сукня</a>
+                            </h2>
+                            <p class="descr descr--grey">Відправляю сестрі її куртку, футболку та водійське посвідчення. Куртка коштувала 1200 грн, а футболка 300 грн, разом це приблизно 40 євро.</p>
+                        </div>
+                        <div class="bottom">
+                            <span>Речі не нові, і вартість до 45 євро, тож нарахування митних платежів не буде.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="example-row">
+                    <a href="#" class="example-row__img">
+                        <picture>
+                            <source srcset="img/example_img1.png" media="(max-width: 768px)">
+                            <img class="full-width" src="img/example_img3.png" alt="" loading="lazy">        
+                        </picture> 
+                    </a>
+                    <div class="example-row__text">
+                        <div class="top">
+                            <h2 class="title">
+                                <a href="#">Куртка, штани, футболка, сукня</a>
+                            </h2>
+                            <p class="descr descr--grey">Відправляю сестрі її куртку, футболку та водійське посвідчення. Куртка коштувала 1200 грн, а футболка 300 грн, разом це приблизно 40 євро.</p>
+                        </div>
+                        <div class="bottom">
+                            <span>Речі не нові, і вартість до 45 євро, тож нарахування митних платежів не буде.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>        
         </div>
     </section>
     <section class="calculation-size-sec">
         <div class="container-inner">
-            <div class="calculation-size-sec__inner">
-                <h2 class="heading">Приклади розрахунку</h2>
-                <div class="calculation-size-sec__inner__instruction-wrapper">
-                    <div class="instruction-row">
-                        <div class="dimensions-part">
-                            <img src="img/dimensions_icon1.svg" alt="">
-                            <div class="dimensions-part__text">
-                                <h3 class="title">Посилка (США) – максимальні <br> габарити посилки:</h3>
-                                <div class="descr-dimensions">
-                                    <p>до 120 <span>х</span> 60 <span>х</span> 60 см</p>
-                                </div>
+            <h2 class="heading">Приклади розрахунку</h2>
+            <div class="calculation-size-sec__instruction-wrapper">
+                <div class="instruction-row">
+                    <div class="dimensions-part">
+                        <img src="img/dimensions_icon1.svg" alt="">
+                        <div class="dimensions-part__text">
+                            <h3 class="title">Посилка (США) – максимальні <br> габарити посилки:</h3>
+                            <div class="descr-dimensions">
+                                <p>до 120 <span>х</span> 60 <span>х</span> 60 см</p>
                             </div>
-                        </div>
-                        <p class="descr descr--grey">Максимальна об'ємна вага для доставки кур'єром не повинна перевищувати 65 кг.</p>
-                        <div class="dimensions-part">
-                            <img src="img/dimensions_icon2.svg" alt="">
-                            <div class="dimensions-part__text">
-                                <h3 class="title">Об'ємна вага розраховується <br> за формулою</h3>
-                                <div class="descr-dimensions">
-                                    <p>Д <span>х</span> Ш <span>х</span> В, см / 5000</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="dimensions-example">
-                            <h3 class="name">Наприклад:</h3>
-                            <p class="descr descr--grey">Коробка розміром <span>120х40х60 см <br> (120х40х60/5000 = 57,6 кг)</span> – дозволена до відправляння.</p>
-                            <p class="descr descr--grey">Коробка розміром <span>120х50х60 см (120х50х60/5000 = 72 кг)</span> <br> – не дозволено до відправлення оскільки об'ємна вага більша за 65 кг. </p>   
                         </div>
                     </div>
-                    <div class="instruction-row">
-                        <div class="dimensions-part">
-                            <img src="img/dimensions_icon3.svg" alt="">
-                            <div class="dimensions-part__text">
-                                <h3 class="title">Громіздка посилка – будь-який <br> вимір не може перевищувати</h3>
-                                <div class="descr-dimensions">
-                                    <p>200 см</p>
-                                </div>
+                    <p class="descr descr--grey">Максимальна об'ємна вага для доставки кур'єром не повинна перевищувати 65 кг.</p>
+                    <div class="dimensions-part">
+                        <img src="img/dimensions_icon2.svg" alt="">
+                        <div class="dimensions-part__text">
+                            <h3 class="title">Об'ємна вага розраховується <br> за формулою</h3>
+                            <div class="descr-dimensions">
+                                <p>Д <span>х</span> Ш <span>х</span> В, см / 5000</p>
                             </div>
                         </div>
-                        <p class="descr descr--grey">Сума довжини і найбільшого периметра (довжини кола) у будь-якому напрямку (крім довжини) не може перевищувати <span>300 см</span> (для США об’ємна вага не повинна перевищувати <span>65 кг</span>). </p>
-                        <p class="descr descr--grey">При оформленні <span>декларації CN23</span> у США, обов'язково повинно бути зазначено матеріал з якого виготовлено вкладення, </p>
-                        <div class="dimensions-example">
-                            <h3 class="name">Наприклад:</h3>
-                            <p class="descr descr--grey">Дитяча іграшка (дерево) – 1 шт. – 10$; сорочка (поліестер) – 2 шт. – 10$.  </p> 
-                        </div>
-                        <p class="remark">У США заборонено пересилати вироби в аерозолях, ліки, БАДи та продукти харчування. </p>
+                    </div>
+                    <div class="dimensions-example">
+                        <h3 class="name">Наприклад:</h3>
+                        <p class="descr descr--grey">Коробка розміром <span>120х40х60 см <br> (120х40х60/5000 = 57,6 кг)</span> – дозволена до відправляння.</p>
+                        <p class="descr descr--grey">Коробка розміром <span>120х50х60 см (120х50х60/5000 = 72 кг)</span> <br> – не дозволено до відправлення оскільки об'ємна вага більша за 65 кг. </p>   
                     </div>
                 </div>
-            </div> 
+                <div class="instruction-row">
+                    <div class="dimensions-part">
+                        <img src="img/dimensions_icon3.svg" alt="">
+                        <div class="dimensions-part__text">
+                            <h3 class="title">Громіздка посилка – будь-який <br> вимір не може перевищувати</h3>
+                            <div class="descr-dimensions">
+                                <p>200 см</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="descr descr--grey">Сума довжини і найбільшого периметра (довжини кола) у будь-якому напрямку (крім довжини) не може перевищувати <span>300 см</span> (для США об’ємна вага не повинна перевищувати <span>65 кг</span>). </p>
+                    <p class="descr descr--grey">При оформленні <span>декларації CN23</span> у США, обов'язково повинно бути зазначено матеріал з якого виготовлено вкладення, </p>
+                    <div class="dimensions-example">
+                        <h3 class="name">Наприклад:</h3>
+                        <p class="descr descr--grey">Дитяча іграшка (дерево) – 1 шт. – 10$; сорочка (поліестер) – 2 шт. – 10$.  </p> 
+                    </div>
+                    <p class="remark">У США заборонено пересилати вироби в аерозолях, ліки, БАДи та продукти харчування. </p>
+                </div>
+            </div>   
         </div>
     </section>
     <section class="infrmtn-customs-clearance-sec">
         <div class="container-inner">
-            <div class="infrmtn-customs-clearance-sec__inner">
-                <h2 class="heading">Інформація про розмитнення </h2>
-                <div class="infrmtn-customs-clearance-sec__inner__infrmtn-wrapper">
-                    <div class="info-row">
-                        <div class="icon">
-                            <img src="img/currency-dollar-circle.svg" alt="">
-                        </div>
-                        <p>Митний ліміт на одну посилку без сплати мита: до 20 канадських доларів.</p>
+            <h2 class="heading">Інформація про розмитнення </h2>
+            <div class="infrmtn-customs-clearance-sec__infrmtn-wrapper">
+                <div class="info-row">
+                    <div class="icon">
+                        <img src="img/currency-dollar-circle.svg" alt="">
                     </div>
-                    <div class="info-row">
-                        <div class="icon">
-                            <img src="img/max_size.svg" alt="">
-                        </div>
-                        <p>До 30 кг фізичної ваги і 65 кг об'ємної ваги</p>
-                    </div>
-                    <div class="info-row">
-                        <div class="icon">
-                            <img src="img/currency-dollar-circle2.svg" alt="">
-                        </div>
-                        <p>Максимальна вартість посилки: до 200$</p>
-                    </div>
+                    <p>Митний ліміт на одну посилку без сплати мита: до 20 канадських доларів.</p>
                 </div>
-            </div>
+                <div class="info-row">
+                    <div class="icon">
+                        <img src="img/max_size.svg" alt="">
+                    </div>
+                    <p>До 30 кг фізичної ваги і 65 кг об'ємної ваги</p>
+                </div>
+                <div class="info-row">
+                    <div class="icon">
+                        <img src="img/currency-dollar-circle2.svg" alt="">
+                    </div>
+                    <p>Максимальна вартість посилки: до 200$</p>
+                </div>
+            </div>   
         </div>
     </section>
     <section class="where-can-del-sec">
         <div class="container-inner">
-            <div class="where-can-del-sec__inner">
-                <div class="where-can-del-sec__inner__name">
+            <div class="d-flex">
+                <div class="where-can-del-sec__name">
                     <h2 class="heading">Куди можна?</h2>
                 </div>
-                <div class="where-can-del-sec__inner__posts">
+                <div class="where-can-del-sec__posts">
                     <div class="posts-icons">
                         <img class="meest_icon" src="img/meest_icon.svg" alt="">
                         <img class="canada_post" src="img/canada_post.svg" alt="">
@@ -537,63 +523,61 @@
     </section>
     <section class="del-limitation-sec">
         <div class="container-inner">
-            <div class="del-limitation-sec__inner">
-                <h2 class="heading">При відправленні посилки в США діють обмеження:</h2>
-                <div class="del-limitation-sec__inner__limitation-wrapper">
-                    <div class="limitation-row">
-                        <div class="icon">
-                            <img src="img/kg_icon.svg" alt="">
-                        </div>
-                        <div class="text">
-                            <h3 class="title">до 30 кг</h3>
-                            <span class="subtitle">Вага відправлення:</span>
-                        </div>
+            <h2 class="heading">При відправленні посилки в США діють обмеження:</h2>
+            <div class="del-limitation-sec__limitation-wrapper">
+                <div class="limitation-row">
+                    <div class="icon">
+                        <img src="img/kg_icon.svg" alt="">
                     </div>
-                    <div class="limitation-row">
-                        <div class="icon">
-                            <img src="img/limit_icon2.svg" alt="">
-                        </div>
-                        <div class="text">
-                            <h3 class="title">120 <span>x</span> 60 <span>x</span> 60 см</h3>
-                            <span class="subtitle">Розміри відправлення:</span>
-                        </div>
-                    </div>
-                    <div class="limitation-row attention">
-                        <div class="icon">
-                            <img src="img/limit_icon3.svg" alt="">
-                        </div>
-                        <div class="text">
-                            <span class="subtitle">Максимальна фізична вага для відправки посилки не повинна перевищувати 30 кг, максимальна об’ємна вага не повинна перевищувати 65 кг. </span>
-                        </div>
-                    </div>
-                    <div class="limitation-row">
-                        <div class="icon">
-                            <img src="img/limit_icon4.svg" alt="">
-                        </div>
-                        <div class="text">
-                            <span class="subtitle">Тип доставки: До складу або адресно до дверей. </span>
-                        </div>
-                    </div>
-                    <div class="limitation-row">
-                        <div class="icon">
-                            <img src="img/limit_icon5.svg" alt="">
-                        </div>
-                        <div class="text">
-                            <h3 class="title">11-17 днів</h3>
-                            <span class="subtitle">Терміни доставки:</span>
-                        </div>
+                    <div class="text">
+                        <h3 class="title">до 30 кг</h3>
+                        <span class="subtitle">Вага відправлення:</span>
                     </div>
                 </div>
-            </div>
+                <div class="limitation-row">
+                    <div class="icon">
+                        <img src="img/limit_icon2.svg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3 class="title">120 <span>x</span> 60 <span>x</span> 60 см</h3>
+                        <span class="subtitle">Розміри відправлення:</span>
+                    </div>
+                </div>
+                <div class="limitation-row attention">
+                    <div class="icon">
+                        <img src="img/limit_icon3.svg" alt="">
+                    </div>
+                    <div class="text">
+                        <span class="subtitle">Максимальна фізична вага для відправки посилки не повинна перевищувати 30 кг, максимальна об’ємна вага не повинна перевищувати 65 кг. </span>
+                    </div>
+                </div>
+                <div class="limitation-row">
+                    <div class="icon">
+                        <img src="img/limit_icon4.svg" alt="">
+                    </div>
+                    <div class="text">
+                        <span class="subtitle">Тип доставки: До складу або адресно до дверей. </span>
+                    </div>
+                </div>
+                <div class="limitation-row">
+                    <div class="icon">
+                        <img src="img/limit_icon5.svg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3 class="title">11-17 днів</h3>
+                        <span class="subtitle">Терміни доставки:</span>
+                    </div>
+                </div>
+            </div>        
         </div>
     </section>
     <section class="questions-answers-sec">
         <div class="container-inner">
-            <div class="questions-answers-sec__inner">
-                <div class="questions-answers-sec__inner__name">
+            <div class="d-flex">
+                <div class="questions-answers-sec__name">
                     <h2 class="heading">Питання та <br> Відповіді</h2>
                 </div>
-                <div class="questions-answers-sec__inner__questions">
+                <div class="questions-answers-sec__questions">
                     <div class="faq-wrapper">
                         <div class="accordion-sec">
                             <div class="name-sec active">
@@ -664,7 +648,7 @@
     <section class="our-news-sec-ukr-usa">
 		<div class="container-inner">
 			<div class="our-news-sec-ukr-usa__wrapper">
-				<div class="our-news-sec-ukr-usa__wrapper__top-our-news">
+				<div class="top-our-news">
 					<h2 class="heading">Наші Новини</h2>
 					<div class="buttons-for-sec">
 						<div class="swiper-buttons">
